@@ -22,17 +22,19 @@
         </div>
       </div><a class="go-down hover header__go-down" data-value="Скролл" href="#service">Листайте вниз</a>
       <div class="wrapper">
-        <div class="header__inner"><a class="hero popup-link hover" data-value="Записаться" href="#popup-form"><img class="hero__lettering" src="img/slogan.png" alt="name"><span class="hero__text">Все виды окрашивания волос <br>профессиональной косметикой Goldwell </span></a>
-              <button class="btn btn_hidden btn_hidden-header popup-link" type="button" href="#popup-form">Записаться</button>
+        <div class="header__inner">
+          <div class="header__hero-block"><a class="hero popup-link hover" data-value="Записаться" href="#popup-form"><img class="hero__lettering" src="img/slogan.png" alt="name"><span class="hero__text">Все виды окрашивания волос <br>профессиональной косметикой Goldwell </span></a>
+                <button class="btn btn_hidden btn_hidden-header popup-link" type="button" href="#popup-form">Записаться</button>
+          </div>
+          <div class="header__slider">
+            <div class="swiper-wrapper">
+              <div class="header__slide header__slide_1 swiper-slide"></div>
+              <div class="header__slide header__slide_2 swiper-slide"></div>
+              <div class="header__slide header__slide_3 swiper-slide"></div>
+            </div>
+            <div class="header-pagination"></div>
+          </div>
         </div>
-      </div>
-      <div class="header__slider">
-        <div class="swiper-wrapper">
-          <div class="header__slide header__slide_1 swiper-slide"></div>
-          <div class="header__slide header__slide_2 swiper-slide"></div>
-          <div class="header__slide header__slide_3 swiper-slide"></div>
-        </div>
-        <div class="header-pagination"></div>
       </div>
     </div>
     <div class="service" id="service">
@@ -40,6 +42,7 @@
         <div class="service__inner">
               <div class="section-title service__title">Наши услуги</div>
               <div class="section-subtitle service__subtitle">Подчеркните свою индивидуальность <br> с помощью парикмахера-стилиста</div>
+              <button class="btn btn_instagram service__btn popup-link" type="button" href="#popup-form">Наши цены</button>
           <div class="service__list"><a class="popup-link service-item service-item_big service__item hover" data-option="Окрашивание" data-value="Записаться" href="#popup-form" style="background: #DAF4FA url(img/service.png) no-repeat;
             background-size: contain">
                   <div class="service-item__content"><span class="service-item__title service-item__title_big">Окрашивание</span><span class="service-item__subtitle">Однотонное, шатуш, омбре, балаяж, тонирование, мелирование, блики</span>
@@ -48,7 +51,7 @@
                         <use xlink:href="svg/sprite.svg#time"></use>
                       </svg><span class="service-item__time">1,5-2 ч</span>
                     </div><span class="service-item__price">от 2500 ₽</span>
-                  </div></a><a class="popup-link service-item service-item_small service__item hover" data-option="Укладка и прически" data-value="Записаться" href="#popup-form" style="background: #F9F0E8 url(img/service.png) no-repeat;
+                  </div></a><a class="popup-link service-item service-item_small service__item hover" data-option="Укладка и прически" data-value="Записаться" href="#popup-form" style="background: #F9F0E8 url(img/service-small.png) no-repeat;
             background-size: contain">
                   <div class="service-item__content"><span class="service-item__title undefined">Укладка и прически</span><span class="service-item__subtitle">Повседневная укладка, плетение кос, вечерние прически</span>
                     <div class="service-item__timeblock">
@@ -56,7 +59,7 @@
                         <use xlink:href="svg/sprite.svg#time"></use>
                       </svg><span class="service-item__time">30–60 мин</span>
                     </div><span class="service-item__price">от 1500 ₽</span>
-                  </div></a><a class="popup-link service-item service-item_small service__item hover" data-option="Женская стрижка" data-value="Записаться" href="#popup-form" style="background: #E7F1F0 url(img/service.png) no-repeat;
+                  </div></a><a class="popup-link service-item service-item_small service__item hover" data-option="Женская стрижка" data-value="Записаться" href="#popup-form" style="background: #E7F1F0 url(img/service-small2.png) no-repeat;
             background-size: contain">
                   <div class="service-item__content"><span class="service-item__title undefined">Женские стрижки</span><span class="service-item__subtitle">Любые стрижки с учетом типа внешности и ваших желаний</span>
                     <div class="service-item__timeblock">
@@ -64,7 +67,7 @@
                         <use xlink:href="svg/sprite.svg#time"></use>
                       </svg><span class="service-item__time">30–60 мин</span>
                     </div><span class="service-item__price">от 1000 ₽</span>
-                  </div></a><a class="popup-link service-item service-item_small service__item hover" data-option="Уход за волосами" data-value="Записаться" href="#popup-form" style="background: #E7D8E5 url(img/service.png) no-repeat;
+                  </div></a><a class="popup-link service-item service-item_small service__item hover" data-option="Уход за волосами" data-value="Записаться" href="#popup-form" style="background: #E7D8E5 url(img/service-small3.png) no-repeat;
             background-size: contain">
                   <div class="service-item__content"><span class="service-item__title undefined">Уход для волос</span><span class="service-item__subtitle">Лечение, восстановление и поддержание здоровья волос</span>
                     <div class="service-item__timeblock">
@@ -72,7 +75,7 @@
                         <use xlink:href="svg/sprite.svg#time"></use>
                       </svg><span class="service-item__time">20 - 60 мин</span>
                     </div><span class="service-item__price">от 500 ₽</span>
-                  </div></a><a class="popup-link service-item service-item_small service__item hover" data-option="Завивка" data-value="Записаться" href="#popup-form" style="background: #F9F0E8 url(img/service.png) no-repeat;
+                  </div></a><a class="popup-link service-item service-item_small service__item hover" data-option="Завивка" data-value="Записаться" href="#popup-form" style="background: #F9F0E8 url(img/service-small4.png) no-repeat;
             background-size: contain">
                   <div class="service-item__content"><span class="service-item__title undefined">Завивка</span><span class="service-item__subtitle">Долговременная химическая и биозавивка</span>
                     <div class="service-item__timeblock">
@@ -80,7 +83,7 @@
                         <use xlink:href="svg/sprite.svg#time"></use>
                       </svg><span class="service-item__time">1-1,5 ч</span>
                     </div><span class="service-item__price">от 1700 ₽</span>
-                  </div></a><a class="popup-link service-item service-item_small service__item hover" data-option="Мужская стрижка" data-value="Записаться" href="#popup-form" style="background: #E7F1F0 url(img/service.png) no-repeat;
+                  </div></a><a class="popup-link service-item service-item_small service__item hover" data-option="Мужская стрижка" data-value="Записаться" href="#popup-form" style="background: #E7F1F0 url(img/service-small5.png) no-repeat;
             background-size: contain">
                   <div class="service-item__content"><span class="service-item__title undefined">Мужская стрижка</span><span class="service-item__subtitle">Лечение, восстановление и поддержание здоровья волос</span>
                     <div class="service-item__timeblock">
@@ -88,7 +91,7 @@
                         <use xlink:href="svg/sprite.svg#time"></use>
                       </svg><span class="service-item__time">20 - 60 мин</span>
                     </div><span class="service-item__price">от 500 ₽</span>
-                  </div></a><a class="popup-link service-item service-item_small service__item hover" data-option="Детская стрижка" data-value="Записаться" href="#popup-form" style="background: #FEE9E8 url(img/service.png) no-repeat;
+                  </div></a><a class="popup-link service-item service-item_small service__item hover" data-option="Детская стрижка" data-value="Записаться" href="#popup-form" style="background: #FEE9E8 url(img/service-small6.png) no-repeat;
             background-size: contain">
                   <div class="service-item__content"><span class="service-item__title undefined">Детская стрижка</span><span class="service-item__subtitle">Долговременная химическая и биозавивка</span>
                     <div class="service-item__timeblock">
@@ -846,12 +849,8 @@
         </div>
       </div>
       <div class="popup__inner">
-            <div class="thanks"><span class="thanks__name client-name"></span><span class="thanks__title">спасибо за заявку!</span><span class="thanks__text">Я перезвоню Вам в ближайшее время, чтобы согласовать дату, время и другие детали вашего визита в салон красоты «Акварель»</span><span class="thanks__light-text">А пока вы ждете звонка, подпишитесь на наш инстаграм, чтобы подбирать для себя интересные цвета и стрижки, ориентируясь на работы наших мастеров</span><span class="thanks__subscription">Подписаться на инстаграм </span>
-              <div class="thanks__block">
-                <svg class="icon thanks__insta">
-                  <use xlink:href="svg/sprite.svg#instagram"></use>
-                </svg><a class="thanks__link" href="https://www.instagram.com/salonaquarel/" target="_blank">@salonaquarel</a>
-              </div>
+            <div class="thanks"><span class="thanks__name client-name"></span><span class="thanks__title">спасибо за заявку!</span><span class="thanks__text">Я перезвоню Вам в ближайшее время, чтобы согласовать дату, время и другие детали вашего визита в салон красоты «Акварель»</span><span class="thanks__light-text">А пока вы ждете звонка, подпишитесь на наш инстаграм, чтобы подбирать для себя интересные цвета и стрижки, ориентируясь на работы наших мастеров</span><span class="thanks__subscription">Подписаться на инстаграм </span><a class="thanks__link" href="https://www.instagram.com/salonaquarel/" target="_blank">@salonaquarel</a>
+              <div class="thanks__block"><img class="thanks__img" src="img/hair.png" alt="img"><img class="thanks__img" src="img/insta.png" alt="img"></div>
             </div>
       </div>
     </div>
