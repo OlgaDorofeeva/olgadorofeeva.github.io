@@ -390,49 +390,51 @@
               <div class="section-subtitle form-section__subtitle">Наши специалисты работают в салоне с 2004 года и по сей день — вы всегда можете на нас рассчитывать</div>
               <form class="form" id="form" data-route="thanks"><span class="form__title">Запишитесь <span class="nowrap">в салон</span> <span class="nowrap">на любую</span> процедуру</span>
                 <div class="form__body">
-                  <div class="form__line">
-                    <select class="select input select_service" name="service" data-placeholder="выберите услугу">
-                      <option></option>
-                      <option value="Окрашивание" data-price="от 1500₽">Окрашивание</option>
-                      <option value="Женская стрижка" data-price="от 2500₽">Женская стрижка</option>
-                      <option value="Мужская стрижка" data-price="от 3500₽">Мужская стрижка</option>
-                      <option value="Детская стрижка" data-price="от 3500₽">Детская стрижка</option>
-                      <option value="Укладка и прически" data-price="от 3500₽">Укладка и прически</option>
-                      <option value="Уход за волосами" data-price="от 3500₽">Уход за волосами</option>
-                      <option value="Завивка" data-price="от 3500₽">Завивка</option>
-                      <option value="Маникюр" data-price="от 3500₽">Маникюр</option>
-                      <option value="Уход за ногтями" data-price="от 3500₽">Уход за ногтями</option>
-                      <option value="Покрытие (лак, гель)" data-price="от 3500₽">Покрытие (лак, гель)</option>
-                      <option value="Дизайн ногтей" data-price="от 3500₽">Дизайн ногтей</option>
-                      <option value="Педикюр" data-price="от 3500₽">Педикюр</option>
-                      <option value="Эпиляция" data-price="от 3500₽">Эпиляция</option>
-                      <option value="Шикарный образ" data-price="от 3500₽">Шикарный образ</option>
-                      <option value="Семейный визит" data-price="от 3500₽">Семейный визит</option>
-                      <option value="Волшебные волосы" data-price="от 3500₽">Волшебные волосы</option>
-                    </select>
-                    <svg class="icon form__icon_arrow">
-                      <use xlink:href="svg/sprite.svg#arrow-down"></use>
-                    </svg>
+                  <div class="form__selects">
+                    <div class="form__line">
+                      <select class="select input select_service" name="service" data-placeholder="выберите услугу">
+                        <option></option>
+                        <option value="Окрашивание" data-price="от 1500₽">Окрашивание</option>
+                        <option value="Женская стрижка" data-price="от 2500₽">Женская стрижка</option>
+                        <option value="Мужская стрижка" data-price="от 3500₽">Мужская стрижка</option>
+                        <option value="Детская стрижка" data-price="от 3500₽">Детская стрижка</option>
+                        <option value="Укладка и прически" data-price="от 3500₽">Укладка и прически</option>
+                        <option value="Уход за волосами" data-price="от 3500₽">Уход за волосами</option>
+                        <option value="Завивка" data-price="от 3500₽">Завивка</option>
+                        <option value="Маникюр" data-price="от 3500₽">Маникюр</option>
+                        <option value="Уход за ногтями" data-price="от 3500₽">Уход за ногтями</option>
+                        <option value="Покрытие (лак, гель)" data-price="от 3500₽">Покрытие (лак, гель)</option>
+                        <option value="Дизайн ногтей" data-price="от 3500₽">Дизайн ногтей</option>
+                        <option value="Педикюр" data-price="от 3500₽">Педикюр</option>
+                        <option value="Эпиляция" data-price="от 3500₽">Эпиляция</option>
+                        <option value="Шикарный образ" data-price="от 3500₽">Шикарный образ</option>
+                        <option value="Семейный визит" data-price="от 3500₽">Семейный визит</option>
+                        <option value="Волшебные волосы" data-price="от 3500₽">Волшебные волосы</option>
+                      </select>
+                      <svg class="icon form__icon_arrow">
+                        <use xlink:href="svg/sprite.svg#arrow-down"></use>
+                      </svg>
+                    </div>
+                    <div class="form__line">
+                      <select class="select input" name="worker" data-placeholder="выберите мастера">
+                        <option></option>
+                        <option value="Иван" data-price="">Иван</option>
+                        <option value="Олег" data-price="">Олег</option>
+                        <option value="Марина" data-price="">Марина</option>
+                      </select>
+                      <svg class="icon form__icon_arrow">
+                        <use xlink:href="svg/sprite.svg#arrow-down"></use>
+                      </svg>
+                    </div>
+                    <div class="form__line">
+                      <select class="select input select_date" name="data" data-placeholder="выберите дату">
+                        <option></option>
+                      </select>
+                      <svg class="icon form__icon_arrow">
+                        <use xlink:href="svg/sprite.svg#arrow-down"></use>
+                      </svg>
+                    </div><span class="form__time">Удобное время согласует администратор</span>
                   </div>
-                  <div class="form__line">
-                    <select class="select input" name="worker" data-placeholder="выберите мастера">
-                      <option></option>
-                      <option value="Иван" data-price="">Иван</option>
-                      <option value="Олег" data-price="">Олег</option>
-                      <option value="Марина" data-price="">Марина</option>
-                    </select>
-                    <svg class="icon form__icon_arrow">
-                      <use xlink:href="svg/sprite.svg#arrow-down"></use>
-                    </svg>
-                  </div>
-                  <div class="form__line">
-                    <select class="select input select_date" name="data" data-placeholder="выберите дату">
-                      <option></option>
-                    </select>
-                    <svg class="icon form__icon_arrow">
-                      <use xlink:href="svg/sprite.svg#arrow-down"></use>
-                    </svg>
-                  </div><span class="form__time">Удобное время согласует администратор</span>
                   <div class="form__line inp-validate">
                     <input class="input" name="phone" placeholder="укажите телефон" type="tel">
                     <div class="form__valid form__valid_ok">
@@ -496,7 +498,7 @@
                   <div class="warranty__left-wrapper">
                     <svg class="warranty__number">
                       <use xlink:href="svg/sprite.svg#7"></use>
-                    </svg><span class="warranty__text">дней гарантии на стрижку     </span>
+                    </svg><span class="warranty__text">дней гарантии<br> на стрижку     </span>
                   </div>
                 </div>
                 <div class="warranty__right">
@@ -618,8 +620,8 @@
         </div>
       </div>
     </div>
-    <div class="footer" id="footer"><a href="yandexnavi://build_route_on_map?lat_to=55.776902&lon_to=37.533894"> 
-      <div id="map"></div></a>
+    <div class="footer" id="footer"><a class="footer__map-link" href="#">
+        <div id="map"></div></a>
       <div class="footer__inner">
         <div class="wrapper">
           <div class="footer__map-info">
@@ -766,49 +768,51 @@
       <div class="popup__inner">
             <form class="form" id="form-popup" data-route="thanks">
               <div class="form__body form__body_visible">
-                <div class="form__line">
-                  <select class="select input select_service" name="service" data-placeholder="выберите услугу">
-                    <option></option>
-                    <option value="Окрашивание" data-price="от 1500₽">Окрашивание</option>
-                    <option value="Женская стрижка" data-price="от 2500₽">Женская стрижка</option>
-                    <option value="Мужская стрижка" data-price="от 3500₽">Мужская стрижка</option>
-                    <option value="Детская стрижка" data-price="от 3500₽">Детская стрижка</option>
-                    <option value="Укладка и прически" data-price="от 3500₽">Укладка и прически</option>
-                    <option value="Уход за волосами" data-price="от 3500₽">Уход за волосами</option>
-                    <option value="Завивка" data-price="от 3500₽">Завивка</option>
-                    <option value="Маникюр" data-price="от 3500₽">Маникюр</option>
-                    <option value="Уход за ногтями" data-price="от 3500₽">Уход за ногтями</option>
-                    <option value="Покрытие (лак, гель)" data-price="от 3500₽">Покрытие (лак, гель)</option>
-                    <option value="Дизайн ногтей" data-price="от 3500₽">Дизайн ногтей</option>
-                    <option value="Педикюр" data-price="от 3500₽">Педикюр</option>
-                    <option value="Эпиляция" data-price="от 3500₽">Эпиляция</option>
-                    <option value="Шикарный образ" data-price="от 3500₽">Шикарный образ</option>
-                    <option value="Семейный визит" data-price="от 3500₽">Семейный визит</option>
-                    <option value="Волшебные волосы" data-price="от 3500₽">Волшебные волосы</option>
-                  </select>
-                  <svg class="icon form__icon_arrow">
-                    <use xlink:href="svg/sprite.svg#arrow-down"></use>
-                  </svg>
+                <div class="form__selects">
+                  <div class="form__line">
+                    <select class="select input select_service" name="service" data-placeholder="выберите услугу">
+                      <option></option>
+                      <option value="Окрашивание" data-price="от 1500₽">Окрашивание</option>
+                      <option value="Женская стрижка" data-price="от 2500₽">Женская стрижка</option>
+                      <option value="Мужская стрижка" data-price="от 3500₽">Мужская стрижка</option>
+                      <option value="Детская стрижка" data-price="от 3500₽">Детская стрижка</option>
+                      <option value="Укладка и прически" data-price="от 3500₽">Укладка и прически</option>
+                      <option value="Уход за волосами" data-price="от 3500₽">Уход за волосами</option>
+                      <option value="Завивка" data-price="от 3500₽">Завивка</option>
+                      <option value="Маникюр" data-price="от 3500₽">Маникюр</option>
+                      <option value="Уход за ногтями" data-price="от 3500₽">Уход за ногтями</option>
+                      <option value="Покрытие (лак, гель)" data-price="от 3500₽">Покрытие (лак, гель)</option>
+                      <option value="Дизайн ногтей" data-price="от 3500₽">Дизайн ногтей</option>
+                      <option value="Педикюр" data-price="от 3500₽">Педикюр</option>
+                      <option value="Эпиляция" data-price="от 3500₽">Эпиляция</option>
+                      <option value="Шикарный образ" data-price="от 3500₽">Шикарный образ</option>
+                      <option value="Семейный визит" data-price="от 3500₽">Семейный визит</option>
+                      <option value="Волшебные волосы" data-price="от 3500₽">Волшебные волосы</option>
+                    </select>
+                    <svg class="icon form__icon_arrow">
+                      <use xlink:href="svg/sprite.svg#arrow-down"></use>
+                    </svg>
+                  </div>
+                  <div class="form__line">
+                    <select class="select input" name="worker" data-placeholder="выберите мастера">
+                      <option></option>
+                      <option value="Иван" data-price="">Иван</option>
+                      <option value="Олег" data-price="">Олег</option>
+                      <option value="Марина" data-price="">Марина</option>
+                    </select>
+                    <svg class="icon form__icon_arrow">
+                      <use xlink:href="svg/sprite.svg#arrow-down"></use>
+                    </svg>
+                  </div>
+                  <div class="form__line">
+                    <select class="select input select_date" name="data" data-placeholder="выберите дату">
+                      <option></option>
+                    </select>
+                    <svg class="icon form__icon_arrow">
+                      <use xlink:href="svg/sprite.svg#arrow-down"></use>
+                    </svg>
+                  </div><span class="form__time">Удобное время согласует администратор</span>
                 </div>
-                <div class="form__line">
-                  <select class="select input" name="worker" data-placeholder="выберите мастера">
-                    <option></option>
-                    <option value="Иван" data-price="">Иван</option>
-                    <option value="Олег" data-price="">Олег</option>
-                    <option value="Марина" data-price="">Марина</option>
-                  </select>
-                  <svg class="icon form__icon_arrow">
-                    <use xlink:href="svg/sprite.svg#arrow-down"></use>
-                  </svg>
-                </div>
-                <div class="form__line">
-                  <select class="select input select_date" name="data" data-placeholder="выберите дату">
-                    <option></option>
-                  </select>
-                  <svg class="icon form__icon_arrow">
-                    <use xlink:href="svg/sprite.svg#arrow-down"></use>
-                  </svg>
-                </div><span class="form__time">Удобное время согласует администратор</span>
                 <div class="form__line inp-validate">
                   <input class="input" name="phone" placeholder="укажите телефон" type="tel">
                   <div class="form__valid form__valid_ok">
