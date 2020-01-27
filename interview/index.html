@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>applicants</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="img/logo.png" type="image/png">
+  </head>
+  <body>
+    <div class="overlay">
+      <form class="form" id="form" enctype="multipart/form-data">
+        <div class="form__inner"><span class="form__title">Добавление соискателя</span>
+          <hr>
+              <div class="input-block form__input"><span class="input-block__text">ФИО</span>
+                <label class="input-block__label ">
+                  <input class="input-block__input " placeholder="Введите ФИО" name="name" type="text"><span class="undefined"></span>
+                  <div class="input-block__valid">Все поля обязательны для заполнения</div>
+                </label>
+              </div>
+              <div class="input-block form__input"><span class="input-block__text">Номер телефона</span>
+                <label class="input-block__label ">
+                  <input class="input-block__input " placeholder="Введите номер телефона" name="phone" type="tel"><span class="undefined"></span>
+                  <div class="input-block__valid">Все поля обязательны для заполнения</div>
+                </label>
+              </div>
+              <div class="input-block form__input"><span class="input-block__text">e-mail</span>
+                <label class="input-block__label ">
+                  <input class="input-block__input " placeholder="Введите email" name="email" type="text"><span class="undefined"></span>
+                  <div class="input-block__valid">Все поля обязательны для заполнения</div>
+                </label>
+              </div><span class="form__input-text">Вакансия</span>
+          <label class="input-block__label">
+            <select class="form__select input-block__input" name="vacancy">
+              <option>Front-end-developer</option>
+              <option>Back-end-developer</option>
+              <option>Designer</option>
+            </select>
+            <div class="input-block__valid">Все поля обязательны для заполнения    </div>
+          </label><span class="form__input-text">Фотография </span><span class="form__input-size">Размер файла вложения не должен превышать 50 Мб, для загрузки допустимы следующие форматы файлов: jpg, png</span>
+          <div class="form__input-file">
+                <div class="input-block form__input-block-file"><span class="input-block__text"></span>
+                  <label class="input-block__label input-block__label_file">
+                    <input class="input-block__input input-block__input_file" placeholder="" name="file" type="file"><span class="input-block__text-file">Выберите файл</span>
+                    <div class="input-block__valid">Все поля обязательны для заполнения</div>
+                  </label>
+                </div><span class="form__file-name">Файл не выбран</span>
+          </div><span class="form__caption">Оценка соискателя </span>
+          <div class="form__rating">
+            <div class="form__block-rating"><span class="form__rating-text">Оценка резюме: <span class="form__resume-count">1</span></span>
+              <div class="form__svg-block">
+                <svg class="icon form__resume-star active">
+                  <use xlink:href="svg/sprite.svg#star"></use>
+                </svg>
+                <svg class="icon form__resume-star">
+                  <use xlink:href="svg/sprite.svg#star"></use>
+                </svg>
+                <svg class="icon form__resume-star">
+                  <use xlink:href="svg/sprite.svg#star"></use>
+                </svg>
+                <svg class="icon form__resume-star">
+                  <use xlink:href="svg/sprite.svg#star"></use>
+                </svg>
+                <svg class="icon form__resume-star">
+                  <use xlink:href="svg/sprite.svg#star"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="form__block-rating"><span class="form__rating-text">Оценка тестового задания: <span class="form__test-count">1</span></span>
+              <div class="form__svg-block">
+                <svg class="icon form__test-star active">
+                  <use xlink:href="svg/sprite.svg#star"></use>
+                </svg>
+                <svg class="icon form__test-star">
+                  <use xlink:href="svg/sprite.svg#star"></use>
+                </svg>
+                <svg class="icon form__test-star">
+                  <use xlink:href="svg/sprite.svg#star"></use>
+                </svg>
+                <svg class="icon form__test-star">
+                  <use xlink:href="svg/sprite.svg#star"></use>
+                </svg>
+                <svg class="icon form__test-star">
+                  <use xlink:href="svg/sprite.svg#star"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="form__block-rating"><span class="form__rating-text">Оценка собеседования: <span class="form__interview-count">1</span></span>
+              <div class="form__svg-block">
+                <svg class="icon form__interview-star active">
+                  <use xlink:href="svg/sprite.svg#star"></use>
+                </svg>
+                <svg class="icon form__interview-star">
+                  <use xlink:href="svg/sprite.svg#star"></use>
+                </svg>
+                <svg class="icon form__interview-star">
+                  <use xlink:href="svg/sprite.svg#star"></use>
+                </svg>
+                <svg class="icon form__interview-star">
+                  <use xlink:href="svg/sprite.svg#star"></use>
+                </svg>
+                <svg class="icon form__interview-star">
+                  <use xlink:href="svg/sprite.svg#star"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="form__btn-block">
+            <button class="form__btn form__btn_cancel" id="cancel">Отменить</button>
+            <button class="form__btn form__btn_submit" id="submit" type="submit">Добавить</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="hero">
+      <div class="wrapper">
+        <div class="hero__inner">
+          <div class="hero__title-line">
+            <div class="hero__title-block"><span class="hero__title">Ваши соискатели</span><span class="hero__subtitle">Всего соискателей: <span class="hero__count"></span></span></div>
+            <button class="hero__btn-add">+ Добавить соискателя       </button>
+          </div>
+          <div class="line"><span class="line__title">Соискатель</span><span class="line__title">Телефон</span><span class="line__title">E-mail</span><span class="line__title">Оценка соискателя</span></div>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
