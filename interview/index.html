@@ -13,25 +13,31 @@
       <form class="form" id="form" enctype="multipart/form-data">
         <div class="form__inner"><span class="form__title">Добавление соискателя</span>
           <hr>
-              <div class="input-block form__input"><span class="input-block__text">ФИО</span>
-                <label class="input-block__label ">
-                  <input class="input-block__input " placeholder="Введите ФИО" name="name" type="text"><span class="undefined"></span>
-                  <div class="input-block__valid">Все поля обязательны для заполнения</div>
-                </label>
+              <div class="input-block form__input">
+                <div class="input-block__wrapper">
+                  <label class="input-block__label ">ФИО
+                    <input class="input-block__input " placeholder="Введите ФИО" name="name" type="text">
+                  </label>
+                </div>
+                <div class="input-block__valid">Все поля обязательны для заполнения</div>
               </div>
-              <div class="input-block form__input"><span class="input-block__text">Номер телефона</span>
-                <label class="input-block__label ">
-                  <input class="input-block__input " placeholder="Введите номер телефона" name="phone" type="tel"><span class="undefined"></span>
-                  <div class="input-block__valid">Все поля обязательны для заполнения</div>
-                </label>
+              <div class="input-block form__input">
+                <div class="input-block__wrapper">
+                  <label class="input-block__label ">Номер телефона
+                    <input class="input-block__input " placeholder="Введите номер телефона" name="phone" type="tel">
+                  </label>
+                </div>
+                <div class="input-block__valid">Все поля обязательны для заполнения</div>
               </div>
-              <div class="input-block form__input"><span class="input-block__text">e-mail</span>
-                <label class="input-block__label ">
-                  <input class="input-block__input " placeholder="Введите email" name="email" type="text"><span class="undefined"></span>
-                  <div class="input-block__valid">Все поля обязательны для заполнения</div>
-                </label>
+              <div class="input-block form__input">
+                <div class="input-block__wrapper">
+                  <label class="input-block__label ">e-mail
+                    <input class="input-block__input " placeholder="Введите email" name="email" type="text">
+                  </label>
+                </div>
+                <div class="input-block__valid">Все поля обязательны для заполнения</div>
               </div><span class="form__input-text">Вакансия</span>
-          <label class="input-block__label">
+          <label class="input-block">
             <select class="form__select input-block__input" name="vacancy">
               <option>Front-end-developer</option>
               <option>Back-end-developer</option>
@@ -40,11 +46,13 @@
             <div class="input-block__valid">Все поля обязательны для заполнения    </div>
           </label><span class="form__input-text">Фотография </span><span class="form__input-size">Размер файла вложения не должен превышать 50 Мб, для загрузки допустимы следующие форматы файлов: jpg, png</span>
           <div class="form__input-file">
-                <div class="input-block form__input-block-file"><span class="input-block__text"></span>
-                  <label class="input-block__label input-block__label_file">
-                    <input class="input-block__input input-block__input_file" placeholder="" name="file" type="file"><span class="input-block__text-file">Выберите файл</span>
-                    <div class="input-block__valid">Все поля обязательны для заполнения</div>
-                  </label>
+                <div class="input-block form__input-block-file">
+                  <div class="input-block__wrapper">
+                    <label class="input-block__label input-block__label_file">Выберите файл
+                      <input class="input-block__input input-block__input_file" placeholder="" name="file" type="file">
+                    </label>
+                  </div>
+                  <div class="input-block__valid">Все поля обязательны для заполнения</div>
                 </div><span class="form__file-name">Файл не выбран</span>
           </div><span class="form__caption">Оценка соискателя </span>
           <div class="form__rating">
@@ -107,7 +115,7 @@
             </div>
           </div>
           <div class="form__btn-block">
-            <button class="form__btn form__btn_cancel" id="cancel">Отменить</button>
+            <div class="form__btn form__btn_cancel" id="cancel">Отменить</div>
             <button class="form__btn form__btn_submit" id="submit" type="submit">Добавить</button>
           </div>
         </div>
