@@ -42,7 +42,7 @@
         <div class="service__inner">
               <div class="section-title service__title">Наши услуги</div>
               <div class="section-subtitle service__subtitle">Подчеркните свою индивидуальность <br> с помощью парикмахера-стилиста</div>
-              <button class="btn btn_instagram service__btn popup-link" type="button" href="#popup-form">Наши цены</button>
+              <button class="btn btn_instagram service__btn popup-link" type="button" href="#full-price">Наши цены</button>
           <div class="service__list"><a class="popup-link service-item service-item_big service__item hover" data-option="Окрашивание" data-value="Записаться" href="#popup-form" style="background: #DAF4FA url(img/service.png) no-repeat;
             background-size: contain">
                   <div class="service-item__content"><span class="service-item__title service-item__title_big">Окрашивание</span><span class="service-item__subtitle">Однотонное, шатуш, омбре, балаяж, тонирование, мелирование, блики</span>
@@ -853,8 +853,15 @@
         </div>
       </div>
       <div class="popup__inner">
-            <div class="thanks"><span class="thanks__name client-name"></span><span class="thanks__title">спасибо за заявку!</span><span class="thanks__text">Я перезвоню Вам в ближайшее время, чтобы согласовать дату, время и другие детали вашего визита в салон красоты «Акварель»</span><span class="thanks__light-text">А пока вы ждете звонка, подпишитесь на наш инстаграм, чтобы подбирать для себя интересные цвета и стрижки, ориентируясь на работы наших мастеров</span><span class="thanks__subscription">Подписаться на инстаграм </span><a class="thanks__link" href="https://www.instagram.com/salonaquarel/" target="_blank">@salonaquarel</a>
-              <div class="thanks__block"><img class="thanks__img" src="img/hair.png" alt="img"><img class="thanks__img" src="img/insta.png" alt="img"></div>
+            <div class="thanks"><span class="thanks__name client-name"></span><span class="thanks__title">спасибо за заявку!</span><span class="thanks__text">Я перезвоню Вам в ближайшее время, чтобы согласовать дату, время и другие детали вашего визита в салон красоты «Акварель»</span><span class="thanks__light-text">А пока вы ждете звонка, подпишитесь на наш инстаграм, чтобы подбирать для себя интересные цвета и стрижки, ориентируясь на работы наших мастеров</span>
+              <div class="thanks__block">
+                <div class="thanks__icon">
+                  <svg class="icon thanks__svg">
+                    <use xlink:href="svg/sprite.svg#instagram"></use>
+                  </svg>
+                </div>
+                <div class="thanks__block-link"><span class="thanks__subscription">Подписаться на инстаграм </span><a class="thanks__link" href="https://www.instagram.com/salonaquarel/" target="_blank">@salonaquarel</a></div>
+              </div>
             </div>
       </div>
     </div>
@@ -872,6 +879,284 @@
             </div>
       </div>
     </div>
+        <div class="popup mfp-hide popup-full-price" id="full-price">
+          <div class="popup__outer hover" data-value="Закрыть">
+            <div class="popup__close p-close"><span class="popup__close-text">Закрыть</span>
+              <svg class="icon popup__svg">
+                <use xlink:href="svg/sprite.svg#close"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="popup__inner scrollbar-outer">
+            <div class="full-price">
+              <div class="full-price__accordeon"><span class="full-price__title">Женский зал</span>
+                <div class="full-price__round">
+                  <div class="full-price__plus"></div>
+                </div>
+              </div>
+              <div class="full-price__block"> 
+                <div class="full-price__block-select">
+                  <select class="full-price__select input" name="" data-placeholder="">
+                    <option value="Короткие волосы">Короткие волосы</option>
+                    <option value="Средние волосы">Средние волосы</option>
+                    <option value="Длинные волосы">Длинные волосы</option>
+                    <option value="Длинные волосы свыше 50 см">Длинные волосы свыше 50 см</option>
+                  </select>
+                  <svg class="icon icon form__icon_arrow full-price__icon">
+                    <use xlink:href="svg/sprite.svg#arrow-down"></use>
+                  </svg>
+                </div>
+                <ul class="full-price__list full-price__list_opened" data-list="Короткие волосы">
+                  <li class="full-price__item"><span class="price__name">Мытье головы</span><span class="price__number">100 ₽</span></li>
+                  <li class="full-price__item"><span class="price__name">Лечение маска</span><span class="price__number">300 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Лечение ампула</span><span class="price__number">400 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Сушка с приданием формы</span><span class="price__number">600 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Сушка</span><span class="price__number">400 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка модельная, включая мытье и сушку</span><span class="price__number">1000 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка модельная с укладкой</span><span class="price__number">1400 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка горячими ножницами</span><span class="price__number">     </span></li>
+                  <li class="full-price__item"><span class="price__name">Подравнивание горячими ножницами</span><span class="price__number">1200 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Челка</span><span class="price__number">300 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Коррекция длины волос</span><span class="price__number">от 600 до 900 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Укладка</span><span class="price__number">800 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Укладка на диффузор</span><span class="price__number"> </span></li>
+                  <li class="full-price__item"><span class="price__name">Коктейльная укладка</span><span class="price__number">     </span></li>
+                  <li class="full-price__item"><span class="price__name">Выпрямление волос утюжком</span><span class="price__number"> </span></li>
+                  <li class="full-price__item"><span class="price__name">Укладка на плойку</span><span class="price__number"> </span></li>
+                  <li class="full-price__item"><span class="price__name">Плетение</span><span class="price__number">1000 - 1500 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Прически</span><span class="price__number">от 2500 до 4500 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Деканаж</span><span class="price__number">1300 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Окрашивание в один тон</span><span class="price__number">1500 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Тонирование</span><span class="price__number">1100 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Моментальное тонирование</span><span class="price__number">400 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Прикорневое окрашивание</span><span class="price__number">1200 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Блондирование всей головы пудрой</span><span class="price__number">1700 ₽    </span></li>
+                  <li class="full-price__item"><span class="price__name">Сложное окрашивание</span><span class="price__number">1600 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Колорирование</span><span class="price__number">2200 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Колорирование от 3-х цветов</span><span class="price__number">2300 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Мелирование зоны деки в один тон, фольга</span><span class="price__number">1600 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Химическая завивка, классика</span><span class="price__number">2300 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Укладочное средство</span><span class="price__number">100 ₽      </span></li>
+                  <li class="full-price__item"><span class="price__name">Уход за волосами Joico</span><span class="price__number">1500 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">SPA-программа счатье для волос</span><span class="price__number">1500 ₽                                                      </span></li>
+                </ul>
+                <ul class="full-price__list" data-list="Средние волосы">
+                  <li class="full-price__item"><span class="price__name">Мытье головы</span><span class="price__number">150 ₽</span></li>
+                  <li class="full-price__item"><span class="price__name">Лечение маска</span><span class="price__number">300 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Лечение ампула</span><span class="price__number">400 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Сушка с приданием формы</span><span class="price__number">750 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Сушка</span><span class="price__number">500 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка модельная, включая мытье и сушку</span><span class="price__number">1100 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка модельная с укладкой</span><span class="price__number">1600 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка горячими ножницами</span><span class="price__number">1600 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Подравнивание горячими ножницами</span><span class="price__number">1200 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Челка</span><span class="price__number">300 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Коррекция длины волос</span><span class="price__number">от 600 до 900 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Укладка</span><span class="price__number">1000 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Укладка на диффузор</span><span class="price__number">1000 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Коктейльная укладка</span><span class="price__number">1500 ₽       </span></li>
+                  <li class="full-price__item"><span class="price__name">Выпрямление волос утюжком</span><span class="price__number">1000 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Укладка на плойку</span><span class="price__number">1500 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Плетение</span><span class="price__number">1000 - 1500 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Прически</span><span class="price__number">от 2500 до 4500 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Деканаж</span><span class="price__number">1500 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Окрашивание в один тон</span><span class="price__number">1700 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Тонирование</span><span class="price__number">1300 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Моментальное тонирование</span><span class="price__number">500 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Прикорневое окрашивание</span><span class="price__number">1300 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Блондирование всей головы пудрой</span><span class="price__number">1900 ₽    </span></li>
+                  <li class="full-price__item"><span class="price__name">Сложное окрашивание</span><span class="price__number">1800 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Колорирование</span><span class="price__number">2400 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Колорирование от 3-х цветов</span><span class="price__number">2600 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Мелирование зоны деки в один тон, фольга</span><span class="price__number">1900 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Химическая завивка, классика</span><span class="price__number">2800 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Укладочное средство</span><span class="price__number">100 ₽      </span></li>
+                  <li class="full-price__item"><span class="price__name">Уход за волосами Joico</span><span class="price__number">2000 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">SPA-программа счатье для волос</span><span class="price__number">2000 ₽  </span></li>
+                </ul>
+                <ul class="full-price__list" data-list="Длинные волосы">
+                  <li class="full-price__item"><span class="price__name">Мытье головы</span><span class="price__number">200 ₽</span></li>
+                  <li class="full-price__item"><span class="price__name">Лечение маска</span><span class="price__number">350 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Лечение ампула</span><span class="price__number">450 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Сушка с приданием формы</span><span class="price__number">900 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Сушка</span><span class="price__number">600 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка модельная, включая мытье и сушку</span><span class="price__number">1400 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка модельная с укладкой</span><span class="price__number">1900 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка горячими ножницами</span><span class="price__number">2000 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Подравнивание горячими ножницами</span><span class="price__number">1200 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Челка</span><span class="price__number">300 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Коррекция длины волос</span><span class="price__number">от 600 до 900 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Укладка</span><span class="price__number">1200 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Укладка на диффузор</span><span class="price__number">1300 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Коктейльная укладка</span><span class="price__number">2000 ₽       </span></li>
+                  <li class="full-price__item"><span class="price__name">Выпрямление волос утюжком</span><span class="price__number">1200 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Укладка на плойку</span><span class="price__number">2000 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Плетение</span><span class="price__number">1000 - 1500 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Прически</span><span class="price__number">от 2500 до 4500 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Деканаж</span><span class="price__number">1700 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Окрашивание в один тон</span><span class="price__number">1900 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Тонирование</span><span class="price__number">1500 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Моментальное тонирование</span><span class="price__number">650 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Прикорневое окрашивание</span><span class="price__number">1400 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Блондирование всей головы пудрой</span><span class="price__number">2100 ₽    </span></li>
+                  <li class="full-price__item"><span class="price__name">Сложное окрашивание</span><span class="price__number">2000 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Колорирование</span><span class="price__number">2700 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Колорирование от 3-х цветов</span><span class="price__number">2900 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Мелирование зоны деки в один тон, фольга</span><span class="price__number">2200 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Химическая завивка, классика</span><span class="price__number">3300 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Укладочное средство</span><span class="price__number">100 ₽      </span></li>
+                  <li class="full-price__item"><span class="price__name">Уход за волосами Joico</span><span class="price__number">2500 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">SPA-программа счатье для волос</span><span class="price__number">2500 ₽  </span></li>
+                </ul>
+                <ul class="full-price__list" data-list="Длинные волосы свыше 50 см">
+                  <li class="full-price__item"><span class="price__name">Мытье головы</span><span class="price__number">250 ₽</span></li>
+                  <li class="full-price__item"><span class="price__name">Лечение маска</span><span class="price__number">500 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Лечение ампула</span><span class="price__number">400 - 500 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Сушка с приданием формы</span><span class="price__number">1100 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Сушка</span><span class="price__number">750 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка модельная, включая мытье и сушку</span><span class="price__number">1600 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка модельная с укладкой</span><span class="price__number">2100 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка горячими ножницами</span><span class="price__number">2500 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Подравнивание горячими ножницами</span><span class="price__number">1200 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Челка</span><span class="price__number">300 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Коррекция длины волос</span><span class="price__number">от 600 до 900 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Укладка</span><span class="price__number">1500 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Укладка на диффузор</span><span class="price__number">1600 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Коктейльная укладка</span><span class="price__number">2500 ₽       </span></li>
+                  <li class="full-price__item"><span class="price__name">Выпрямление волос утюжком</span><span class="price__number">1500 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Укладка на плойку</span><span class="price__number">2500 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Плетение</span><span class="price__number">1000 - 1500 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Прически</span><span class="price__number">от 2500 до 4500 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Деканаж</span><span class="price__number">2000 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Окрашивание в один тон</span><span class="price__number">2200 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Тонирование</span><span class="price__number">1700 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Моментальное тонирование</span><span class="price__number">800 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Прикорневое окрашивание</span><span class="price__number">1500 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Блондирование всей головы пудрой</span><span class="price__number">2300 ₽    </span></li>
+                  <li class="full-price__item"><span class="price__name">Сложное окрашивание</span><span class="price__number">2200 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Колорирование</span><span class="price__number">3100 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Колорирование от 3-х цветов</span><span class="price__number">3200 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Мелирование зоны деки в один тон, фольга</span><span class="price__number">2500 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Химическая завивка, классика</span><span class="price__number">   </span></li>
+                  <li class="full-price__item"><span class="price__name">Укладочное средство</span><span class="price__number">150 ₽      </span></li>
+                  <li class="full-price__item"><span class="price__name">Уход за волосами Joico</span><span class="price__number">3100 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">SPA-программа счатье для волос</span><span class="price__number">3100 ₽  </span></li>
+                </ul>
+              </div>
+              <div class="full-price__accordeon">  <span class="full-price__title">Мужской зал</span>
+                <div class="full-price__round">
+                  <div class="full-price__plus"></div>
+                </div>
+              </div>
+              <div class="full-price__block"> 
+                <ul class="full-price__list full-price__list_noselect">
+                  <li class="full-price__item"><span class="price__name">Мытье головы</span><span class="price__number">100 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка с применением насадок    </span><span class="price__number">400 ₽    </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка модельная, включая мытье и сушку   </span><span class="price__number">900 ₽</span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка волос средней длины   </span><span class="price__number">1000 ₽</span></li>
+                  <li class="full-price__item"><span class="price__name">Укладочное средство </span><span class="price__number">100 ₽          </span></li>
+                </ul>
+              </div>
+              <div class="full-price__accordeon">              <span class="full-price__title">Детские стрижки</span>
+                <div class="full-price__round">
+                  <div class="full-price__plus"></div>
+                </div>
+              </div>
+              <div class="full-price__block"> 
+                <div class="full-price__block-select">
+                  <select class="full-price__select input" name="" data-placeholder="">
+                    <option value="Для мальчиков">Для мальчиков</option>
+                    <option value="Для девочек">Для девочек</option>
+                  </select>
+                  <svg class="icon icon form__icon_arrow full-price__icon">
+                    <use xlink:href="svg/sprite.svg#arrow-down"></use>
+                  </svg>
+                </div>
+                <ul class="full-price__list full-price__list_opened" data-list="Для мальчиков">
+                  <li class="full-price__item"><span class="price__name">Стрижки с применением насадок</span><span class="price__number">300 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Длинные</span><span class="price__number">         </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка модельная до  7 лет</span><span class="price__number">550 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка модельная 7-10</span><span class="price__number">650 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка креативная</span><span class="price__number">700 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка повышенной сложности ("площадка", "ежик")</span><span class="price__number">700 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка шапочка</span><span class="price__number">650 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Укладка</span><span class="price__number">100 - 200 ₽        </span></li>
+                  <li class="full-price__item"><span class="price__name">Укладочное средство</span><span class="price__number">50 ₽ </span></li>
+                </ul>
+                <ul class="full-price__list" data-list="Для девочек">
+                  <li class="full-price__item"><span class="price__name">Стрижки с применением насадок</span><span class="price__number">   </span></li>
+                  <li class="full-price__item"><span class="price__name">Длинные</span><span class="price__number">600 ₽         </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка модельная до  7 лет</span><span class="price__number">550 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка модельная 7-10</span><span class="price__number">650 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка креативная</span><span class="price__number">700 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка повышенной сложности ("площадка", "ежик")</span><span class="price__number"> </span></li>
+                  <li class="full-price__item"><span class="price__name">Стрижка шапочка</span><span class="price__number"> </span></li>
+                  <li class="full-price__item"><span class="price__name">Укладка</span><span class="price__number">100 - 200 ₽        </span></li>
+                  <li class="full-price__item"><span class="price__name">Укладочное средство</span><span class="price__number">50 ₽                                 </span></li>
+                </ul>
+              </div>
+              <div class="full-price__accordeon">  <span class="full-price__title">Маникюр</span>
+                <div class="full-price__round">
+                  <div class="full-price__plus"></div>
+                </div>
+              </div>
+              <div class="full-price__block"> 
+                <ul class="full-price__list full-price__list_noselect">
+                  <li class="full-price__item"><span class="price__name">Маникюр комбинированный</span><span class="price__number">800 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">SPA маникюр    </span><span class="price__number">900 ₽    </span></li>
+                  <li class="full-price__item"><span class="price__name">Мужской маникюр   </span><span class="price__number">700 ₽</span></li>
+                  <li class="full-price__item"><span class="price__name">Детский маникюр   </span><span class="price__number">300 ₽</span></li>
+                  <li class="full-price__item"><span class="price__name">Снятие лака </span><span class="price__number">50 - 100 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Шлифовка ногтей  </span><span class="price__number">200 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Лечебная основа под лак  </span><span class="price__number">50 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Покрытие лаком  </span><span class="price__number">250 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Дизайн 1н  </span><span class="price__number">50 - 100 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Покрытие "Френч"  </span><span class="price__number">400 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Ремонт 1 ногтя  </span><span class="price__number">100 - 200 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Моделирование ногтей гелем на формы  </span><span class="price__number">2500 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Моделирование ногтей гелем "френч" на формы  </span><span class="price__number">3000 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Моделирование ногтей акрилом  </span><span class="price__number">от 2500 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Моделирование ногтей акрилом "френч"  </span><span class="price__number">3000 - 3500 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Коррекция от 4 недель  </span><span class="price__number">2500 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Полукоррекция  </span><span class="price__number">1500 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Снятие искусственных ногтей  </span><span class="price__number">800 - 1000 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Укрепление натуральных ногтей гелем  </span><span class="price__number">1500 ₽         </span></li>
+                  <li class="full-price__item"><span class="price__name">Укрепление натуральных ногтей биогелем  </span><span class="price__number">2000 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Укрепление натуральных ногтей биогелем "френч"  </span><span class="price__number">2500 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Коррекция  </span><span class="price__number">2000 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Моделирование ногтей биогелем  </span><span class="price__number">2500 ₽     </span></li>
+                  <li class="full-price__item"><span class="price__name">Моделирование ногтей биогелем "френч"  </span><span class="price__number">3000 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Пилинг рук и массаж  </span><span class="price__number">400 ₽       </span></li>
+                  <li class="full-price__item"><span class="price__name">Массаж с эмульсией для рук  </span><span class="price__number">300 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Парафинотерапия  </span><span class="price__number">300 ₽          </span></li>
+                </ul>
+              </div>
+              <div class="full-price__accordeon full-price__accordeon_last">  <span class="full-price__title">Педикюр</span>
+                <div class="full-price__round">
+                  <div class="full-price__plus"></div>
+                </div>
+              </div>
+              <div class="full-price__block"> 
+                <ul class="full-price__list full-price__list_noselect">
+                  <li class="full-price__item"><span class="price__name">Аппаратный педикюр</span><span class="price__number">1700 ₽   </span></li>
+                  <li class="full-price__item"><span class="price__name">Маникюр на ногах    </span><span class="price__number">1000 ₽    </span></li>
+                  <li class="full-price__item"><span class="price__name">Мужской педикюр  </span><span class="price__number">1700 ₽</span></li>
+                  <li class="full-price__item"><span class="price__name">Наращивание ногтей на ногах (гель)  </span><span class="price__number">2000 ₽</span></li>
+                  <li class="full-price__item"><span class="price__name">Наращивание ногтей френч</span><span class="price__number">2500 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Укрепление натуральных ногтей гелем  </span><span class="price__number">1000 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Коррекция ногтей  </span><span class="price__number">1600 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Покрытие натуральных ногтей лаком  </span><span class="price__number">150 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Украшение ногтей 1 ноготь  </span><span class="price__number">100 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Покрытие "Френч"  </span><span class="price__number">400 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">SPA педикюр  </span><span class="price__number">2000 ₽ </span></li>
+                  <li class="full-price__item"><span class="price__name">Маска для ног  </span><span class="price__number">300 ₽  </span></li>
+                  <li class="full-price__item"><span class="price__name">Массаж с эмульсией  </span><span class="price__number">400 ₽ </span></li>
+                </ul>
+              </div>
+                  <button class="btn price__btn btn_service-form popup-link full-price__btn" type="button" href="#popup-form">Записаться</button>
+            </div>
+          </div>
+        </div>
         <div class="link-wrapper"><a class="link " href="undefined" rel="stylesheet"><span class="link__inner"></span></a></div><div class="degub-grid">
 <div>
 <div>
