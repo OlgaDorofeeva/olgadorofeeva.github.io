@@ -903,10 +903,12 @@ p {
     .effect__box img {
       width: auto; }
   .effect__box-img {
+    width: 80px;
     height: 136px;
     bottom: 20px; }
     .effect__box-img_4, .effect__box-img_2, .effect__box-img_3 {
-      bottom: 20px; }
+      bottom: 20px;
+      right: -10px; }
     .effect__box-img_1 {
       right: 10px; }
   .move_2 {
@@ -927,11 +929,14 @@ p {
     width: 58px;
     height: 80px;
     margin-right: 0; }
+    .effect__box:before {
+      top: -131px; }
   .effect__box-img {
     height: 80px;
     bottom: 20px; }
     .effect__box-img_4, .effect__box-img_2, .effect__box-img_3 {
-      bottom: 20px; }
+      bottom: 20px;
+      right: 0; }
     .effect__box-img_1 {
       right: 0; }
   .effect__image {
