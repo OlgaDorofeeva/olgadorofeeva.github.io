@@ -1487,7 +1487,8 @@ p {
   .final__button {
     width: 205px;
     font-size: 17px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    top: 37px; }
   .final__text--mb {
     margin-bottom: 0; } }
 
