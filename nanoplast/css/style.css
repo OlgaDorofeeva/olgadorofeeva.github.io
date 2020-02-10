@@ -882,8 +882,9 @@ p {
     font-size: 14px;
     margin-bottom: 20px; }
   .effect__list {
-    width: inherit; }
+    width: 100%; }
     .effect__list ul {
+      width: 100%;
       margin-bottom: 170px;
       opacity: 1; }
   .effect__image {
