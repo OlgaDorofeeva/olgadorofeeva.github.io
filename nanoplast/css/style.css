@@ -1012,7 +1012,6 @@ p {
   .test .reset {
     font-size: 20px;
     color: #70ACE7;
-    cursor: pointer;
     font-family: 'Myriad'; }
   .test__question {
     font-family: 'MagistralMedium';
