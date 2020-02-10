@@ -1012,7 +1012,8 @@ p {
   .test .reset {
     font-size: 20px;
     color: #70ACE7;
-    font-family: 'Myriad'; }
+    font-family: 'Myriad';
+    cursor: pointer; }
   .test__question {
     font-family: 'MagistralMedium';
     color: #4F4848;
@@ -1467,17 +1468,15 @@ p {
   display: block; }
 
 @media (max-width: 650px) {
-  .final__content {
-    margin-bottom: 60px; }
-    .final__content:before {
-      left: -150px; } }
+  .final__content:before {
+    left: -150px; } }
 
 @media (max-width: 620px) {
   .final__content {
     width: 100%;
     padding: 15px;
     padding-top: 18px;
-    margin-bottom: 140px; }
+    margin-bottom: 60px; }
     .final__content:before {
       display: none; }
   .final__image--mobile {
@@ -1511,7 +1510,7 @@ p {
     .final__content {
       width: 100%;
       padding: 50px 190px 80px 400px;
-      margin-bottom: 50px; }
+      margin-bottom: 140px; }
       .final__content::before {
         width: 250px;
         height: 368px;
