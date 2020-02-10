@@ -1266,6 +1266,8 @@ p {
 @media (min-width: 1170px) {
   .test {
     background: linear-gradient(180deg, #F7F7F9 0%, #E5E5EE 50%, #F7F7F9 100%); }
+    .test .reset {
+      color: #3658A3; }
     .test__title {
       padding: 0 195px 0 97px;
       padding-top: 127px;
