@@ -737,7 +737,7 @@ p {
     font-size: 15px;
     font-family: 'Myriad';
     padding-right: 60px;
-    margin-bottom: 80px; }
+    margin-bottom: 50px; }
   .effect__content {
     display: flex;
     justify-content: flex-end;
@@ -766,13 +766,15 @@ p {
       display: block;
       width: 100%; }
   .effect__list {
-    width: 350px;
+    width: 100%;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    margin-right: auto; }
     .effect__list ul {
+      width: 550px;
       opacity: 0;
       padding-left: 0;
-      margin-bottom: 130px; }
+      margin-bottom: 250px; }
   .effect__list-text {
     opacity: 0; }
   .effect__item {
@@ -967,8 +969,15 @@ p {
     .effect__box-img {
       width: 140px;
       height: 196px; }
-    .effect__list ul {
-      margin-bottom: 170px; }
+    .effect__list {
+      width: 100%; }
+      .effect__list ul {
+        width: 750px;
+        margin-bottom: 250px; }
+    .effect__item {
+      font-size: 20px; }
+    .effect__list-text {
+      font-size: 22px; }
   .move_2 {
     width: auto;
     height: 226px;
