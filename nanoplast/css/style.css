@@ -1008,7 +1008,7 @@ p {
     font-size: 15px;
     font-family: 'Myriad'; }
   .test__content {
-    margin-bottom: 70px; }
+    margin-bottom: 30px; }
   .test .reset {
     font-size: 20px;
     color: #70ACE7;
@@ -1167,7 +1167,7 @@ p {
   .test__text {
     font-size: 14px; }
   .test__content {
-    margin-bottom: 40px; }
+    margin-bottom: 20px; }
   .test__zap {
     display: none; }
   .test__question {
@@ -1282,7 +1282,7 @@ p {
       .test__text:first-child {
         margin-bottom: 37px; }
     .test__content {
-      margin-bottom: 170px; }
+      margin-bottom: 100px; }
     .test__question {
       font-size: 40px;
       margin-bottom: 93px; }

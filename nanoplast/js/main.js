@@ -76,6 +76,7 @@ $(function () {
   $('.reset').on('click', function () {
     $('.test').removeClass('open').removeClass('close');
     $('.final').removeClass('open').removeClass('close');
+    $('.final').slideUp()
     $('.test--1').addClass('open');
   })
 })
