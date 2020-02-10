@@ -1371,7 +1371,7 @@ p {
         height: 91px; } }
 
 .final {
-  background: linear-gradient(180deg, #F7F7F9 0%, #E5E5EE 100%);
+  background: linear-gradient(180deg, #F7F7F9 0%, #E5E5EE 50%, #F7F7F9 100%);
   padding-bottom: 1px; }
   .final__content {
     width: 460px;

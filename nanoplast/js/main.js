@@ -40,31 +40,36 @@ $(function () {
 $(function () {
   $('.test__item--1').on('click', function () {
     $('.test--2').removeClass('open');
-    $('.final--1').addClass('open');
+    $('.final--1').slideDown()
+    // $('.final--1').addClass('open');
   })
 })
 $(function () {
   $('.test__item--2').on('click', function () {
     $('.test--2').removeClass('open');
-    $('.final--2').addClass('open');
+    // $('.final--2').addClass('open');
+    $('.final--2').slideDown()
   })
 })
 $(function () {
   $('.test__item--4').on('click', function () {
     $('.test--3').removeClass('open');
-    $('.final--3').addClass('open');
+    $('.final--3').slideDown()
+    // $('.final--3').addClass('open');
   })
 })
 $(function () {
   $('.test__item--5').on('click', function () {
     $('.test--3').removeClass('open');
-    $('.final--4').addClass('open');
+    // $('.final--4').addClass('open');
+    $('.final--4').slideDown()
   })
 })
 $(function () {
   $('.test__item--6').on('click', function () {
     $('.test--3').removeClass('open');
-    $('.final--5').addClass('open');
+    //$('.final--5').addClass('open');
+    $('.final--5').slideDown()
   })
 })
 $(function () {
