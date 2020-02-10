@@ -1023,8 +1023,7 @@ p {
     margin-bottom: 40px; }
   .test__answers {
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 130px; }
+    justify-content: space-around; }
   .test__item {
     width: 194px;
     height: 180px;
@@ -1151,10 +1150,12 @@ p {
   display: none; }
 
 .test--2.open {
-  display: block; }
+  display: block;
+  transition: 0.5s; }
 
 .test--3.open {
-  display: block; }
+  display: block;
+  transition: 0.5s; }
 
 @media (max-width: 620px) {
   .test__title {
@@ -1170,8 +1171,6 @@ p {
   .test__question {
     font-size: 21px;
     margin-bottom: 25px; }
-  .test__answers {
-    margin-bottom: 50px; }
   .test__item {
     width: 91px;
     height: 83px;
@@ -1286,7 +1285,6 @@ p {
     .test__answers {
       display: flex;
       justify-content: space-around;
-      margin-bottom: 270px;
       padding: 0 97px 0 97px; } }
 
 .desc {
@@ -1294,7 +1292,7 @@ p {
   padding-bottom: 1px; }
   .desc__title {
     color: #3658a3;
-    padding-top: 70px;
+    padding-top: 100px;
     margin: 0;
     margin-bottom: 40px;
     font-size: 35px;
@@ -1343,7 +1341,7 @@ p {
 @media (max-width: 620px) {
   .desc__title {
     font-size: 21px;
-    padding-top: 30px;
+    padding-top: 40px;
     margin-bottom: 15px; }
   .slider {
     width: 84%; }
@@ -1358,7 +1356,8 @@ p {
 
 @media (min-width: 1170px) {
   .desc__title {
-    font-size: 40px; }
+    font-size: 40px;
+    padding-top: 140px; }
   .desc__desc {
     padding-top: 250px; }
     .desc__desc img {
