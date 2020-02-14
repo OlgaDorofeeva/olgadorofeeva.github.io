@@ -1168,8 +1168,8 @@ p {
 
 @media (max-width: 768px) {
   .test__wrap {
-    margin-right: 0;
-    margin-left: 0;
+    margin-right: -20px;
+    margin-left: -20px;
     padding: 35px 10px 70px;
     align-items: center; } }
 
@@ -1183,8 +1183,8 @@ p {
   .test__content {
     margin-bottom: 40px; }
   .test__wrap {
-    padding: 94px 20px 120px;
-    margin-bottom: 90px; }
+    padding: 84px 10px 100px;
+    margin-bottom: 70px; }
   .test__zap {
     display: none; }
   .test__question {
@@ -1506,7 +1506,7 @@ p {
     width: 100%;
     padding: 15px;
     padding-top: 18px;
-    margin-bottom: 60px; }
+    margin-bottom: 70px; }
     .final__content:before {
       display: none; }
   .final__image--mobile {
