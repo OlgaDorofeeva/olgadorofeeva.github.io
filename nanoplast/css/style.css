@@ -1008,7 +1008,7 @@ p {
     font-size: 15px;
     font-family: 'Myriad'; }
   .test__content {
-    margin-bottom: 30px; }
+    margin-bottom: 60px; }
   .test .reset {
     font-size: 20px;
     color: #70ACE7;
@@ -1024,8 +1024,15 @@ p {
     margin-bottom: 40px; }
   .test__answers {
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 100px; }
+    justify-content: space-around; }
+  .test__wrap {
+    background: #fff;
+    border-radius: 15px;
+    margin-bottom: 80px;
+    margin-right: -60px;
+    margin-left: -60px;
+    padding: 35px 20px 70px;
+    align-items: center; }
   .test__item {
     width: 194px;
     height: 180px;
@@ -1159,6 +1166,13 @@ p {
   display: block;
   transition: 0.5s; }
 
+@media (max-width: 768px) {
+  .test__wrap {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 35px 10px 70px;
+    align-items: center; } }
+
 @media (max-width: 620px) {
   .test__title {
     font-size: 21px;
@@ -1167,14 +1181,14 @@ p {
   .test__text {
     font-size: 14px; }
   .test__content {
-    margin-bottom: 20px; }
+    margin-bottom: 40px; }
+  .test__wrap {
+    padding: 94px 20px 120px;
+    margin-bottom: 90px; }
   .test__zap {
     display: none; }
   .test__question {
-    font-size: 21px;
-    margin-bottom: 25px; }
-  .test__answers {
-    margin-bottom: 40px; }
+    font-size: 21px; }
   .test__item {
     width: 91px;
     height: 83px;
@@ -1289,8 +1303,12 @@ p {
     .test__answers {
       display: flex;
       justify-content: space-around;
-      margin-bottom: 140px;
-      padding: 0 97px 0 97px; } }
+      padding: 0 97px 0 97px; }
+    .test__wrap {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 120px;
+      padding: 54px 20px 90px; } }
 
 .desc {
   background: linear-gradient(180deg, #f7f7f9 0%, #e5e5ee 100%);
@@ -1394,7 +1412,7 @@ p {
     padding-top: 26px;
     padding-left: 67px;
     padding-right: 40px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     position: relative; }
     .final__content:before {
       width: 196px;
@@ -1522,7 +1540,7 @@ p {
     .final__content {
       width: 100%;
       padding: 50px 190px 80px 400px;
-      margin-bottom: 140px; }
+      margin-bottom: 120px; }
       .final__content::before {
         width: 250px;
         height: 368px;
