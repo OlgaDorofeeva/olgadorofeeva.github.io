@@ -41,13 +41,13 @@ $(function () {
   $('.test__item--1').on('click', function () {
     $('.test--2').removeClass('open');
     // $('.final--2').slideDown()
-    $('.final--1').addClass('open');
+    $('.final--2').addClass('open');
   })
 })
 $(function () {
   $('.test__item--2').on('click', function () {
     $('.test--2').removeClass('open');
-    $('.final--2').addClass('open');
+    $('.final--1').addClass('open');
     // $('.final--1').slideDown()
   })
 })
