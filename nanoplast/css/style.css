@@ -204,7 +204,8 @@ p {
     display: flex; }
   .first img {
     margin: 0 auto;
-    width: 916px; } }
+    width: 916px;
+    height: 818px; } }
 
 .testimony__inner {
   background: linear-gradient(90deg, #284392 0%, #70ACE7 115.57%);
