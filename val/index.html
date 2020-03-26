@@ -312,19 +312,41 @@
 </svg>
       <div class="relax__title">Атмосфера для релаксации</div>
       <div class="relax__block">
-        <div class="relax__left"><span class="relax__text">Окажитесь в тихом лесу наедине с природой и насладитесь пением птиц и успокаивающим шумом дождя!</span><video id="forestvideo" class="relax__video" controls muted loop playsinline poster="img/1.png">
+        <div class="relax__left relax__column"><span class="relax__text">Окажитесь в тихом лесу наедине с природой и насладитесь пением птиц и успокаивающим шумом дождя</span>
+          <div class="relax__play">
+            <button class="relax__btn-video"> </button><img src="img/1.png" alt="img">
+          </div>
+          <div class="relax__video-block"><button class="relax__video-close p-close" type="button">
+<svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1L33 33M1 33L33 1" stroke="#B1B1B1" stroke-width="2"/>
+</svg>
+</button>
+<video id="forestvideo" class="relax__video" autoplay muted loop >
+<source src(unknown) type='video/webm; codecs="vp8, vorbis"' />
 <source src="./forest.mp4" type="video/mp4"/>
 </video>
-<audio id="forestaudio">
+<audio id="forestaudio" class="relax__audio" controls loop preload="metadata">
 <source src="./1.mp3" type="audio/mpeg"/>
 </audio>
+          </div>
         </div>
-        <div class="relax__right"><span class="relax__text">Погрейтесь у костра под треск сухого хвороста и обретите спокойствие, наблюдая за игрой пламени</span><video id="firevideo" class="relax__video" controls muted loop poster="img/2.png">
+        <div class="relax__right relax__column"><span class="relax__text">Погрейтесь у костра под треск сухого хвороста и обретите спокойствие, наблюдая за игрой пламени</span>
+          <div class="relax__play">
+            <button class="relax__btn-video"></button><img src="img/2.png" alt="img">
+          </div>
+          <div class="relax__video-block"><button class="relax__video-close p-close" type="button">
+<svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1L33 33M1 33L33 1" stroke="#B1B1B1" stroke-width="2"/>
+</svg>
+</button>
+<video id="firevideo" class="relax__video" autoplay muted loop >
+<source src(unknown) type='video/webm; codecs="vp8, vorbis"' />
 <source src="./fire.mp4" type="video/mp4"/>
-<audio id="fireaudio">
+</video>
+<audio id="fireaudio" class="relax__audio" controls loop preload="metadata">
 <source src="./2.mp3" type="audio/mpeg"/>
 </audio>
-</video>
+          </div>
         </div>
       </div>
     </div>
